@@ -16,7 +16,7 @@ body{
 }
 /** Img Header **/
 .img-header{
-    background: url(../assets/images/porsche-back.jpg);
+    background: url(.../assets/images/porsche-back.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -148,7 +148,7 @@ body{
     margin-top:100px;
 }
 .porsche-slogan .figure-img{
-    background: url(../assets/images/porsche-azul.jpg);
+    background: url(porsche/assets/images/porsche-azul.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size:cover;
