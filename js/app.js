@@ -47,6 +47,18 @@ btnMenu.addEventListener('click', () => {
 
 });
 
+// Intecalar clase Activo
+
+let enlaces = document.querySelectorAll(".lists li a");
+
+enlaces.forEach((element) => {
+  element.addEventListener("click", (event) => {
+    enlaces.forEach((link) => {
+      link.classList.remove("active");
+    });
+    event.target.classList.add("active");
+  });
+});
 
 // Gallery
 const images = document.querySelectorAll('.img-card img');
